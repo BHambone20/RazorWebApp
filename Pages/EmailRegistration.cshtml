@@ -1,0 +1,15 @@
+﻿@page
+@model RazorWebApp.Pages.EmailRegistrationModel
+@{
+    ViewData["Title"] = "EmailRegistration";
+}
+
+<h1>EmailRegistration</h1>
+<form method="post">
+    <input type="text" placeholder="Enter first name" required name="firstname"><br/>
+    <input type="text" placeholder="Enter last name" required name="lastname"><br />
+    <input type="email" placeholder="Enter email address" required name="emailaddress"><br />
+    <label name="Confirm" ></label><br />
+    <input type="submit">
+</form>
+
